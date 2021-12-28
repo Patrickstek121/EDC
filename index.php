@@ -84,8 +84,8 @@
 			var land = $("#land").val();
 			var email = $("#email").val();
 			var bericht = $("#bericht").val();
-			var submit =$("form-submit").val();
-			$(".form-message").load("mail.php" {
+			var submit =$("#form-submit").val();
+			$(".form-message").load("mail.php", {
 				naam: naam,
 				straat: straat,
 				huisnummer: huisnummer,
